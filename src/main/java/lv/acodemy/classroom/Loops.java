@@ -52,10 +52,7 @@ public class Loops {
 
         String[] names = {"art1", "art2", "art3", "art4", "art5", "art6", "art7", "art8", "art9", "art10"};
         for (int i = 0; i < names.length; i++) {
-            if (names[i].equals("art1") ||
-                    names[i].equals("art2") ||
-                    names[i].equals("art3") ||
-                    names[i].equals("art4"))
+            if (names[i].equals(names[2]))
                 System.out.print(names[i] + " ");
         }
 
